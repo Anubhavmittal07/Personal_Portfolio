@@ -28,13 +28,15 @@ body{
     top: 40px;
 }
 .mainbar{
-    /* height: 90vh; */
+   
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
     padding: 40px;
     
 }
+
+
 /*my profile*/
 .me{
     text-align: center;
@@ -263,4 +265,15 @@ h2{
     border-radius: 5px;
     font-size: 0.75rem;
     margin-right: 5px;
+}
+
+@media screen and (max-width:1200px) {
+    .bar{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .sidebar{
+        position: static;
+        height: auto;
+    }
 }
